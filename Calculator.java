@@ -13,6 +13,10 @@ public class Calculator {
         int mul=x*y;
         return mul;
     }
+    static  int div(int x,int y){
+        int div=x/y;
+        return div;
+    }
     public static void main(String[] args) {
         System.out.println("Enter number 1,2,3,4.../n 1 -Addition /n 2- Substraction /n 3-Multiplication /n 4-Division /n 5-Exit");
         Scanner sc=new Scanner(System.in);
@@ -33,6 +37,11 @@ public class Calculator {
                 Scanner sc5=new Scanner(System.in);
                 Scanner sc6=new Scanner(System.in);
                 System.out.println(mul(sc5.nextInt(),sc6.nextInt()));
+            case 4:
+                System.out.println("Enter 2 numbers..");
+                Scanner sc7=new Scanner(System.in);
+                Scanner sc8=new Scanner(System.in);
+                System.out.println(div(sc7.nextInt(),sc8.nextInt()));
 
 
 
