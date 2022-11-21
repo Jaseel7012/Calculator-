@@ -14,7 +14,12 @@ public class Calculator {
         return mul;
     }
     static  int div(int x,int y){
-        int div=x/y;
+        int div=0;
+        try {
+             div=x/y;
+        }catch (Exception e){
+            System.out.println(e);
+        }
         return div;
     }
     public static void main(String[] args) {
