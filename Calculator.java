@@ -43,6 +43,7 @@ public class Calculator {
                 Scanner sc8=new Scanner(System.in);
                 System.out.println(div(sc7.nextInt(),sc8.nextInt()));
             case 5:
+                System.out.println("\n");
                 System.exit(0);
 
 
