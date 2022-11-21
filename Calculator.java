@@ -26,22 +26,26 @@ public class Calculator {
             System.out.println("Enter 2 numbers..");
             Scanner sc1=new Scanner(System.in);
             Scanner sc2=new Scanner(System.in);
-            add1(sc1.nextInt(),sc2.nextInt());
+                System.out.println(add1(sc1.nextInt(),sc2.nextInt()));
+                break;
             case 2:
                 System.out.println("Enter 2 numbers..");
                 Scanner sc3=new Scanner(System.in);
                 Scanner sc4=new Scanner(System.in);
                 System.out.println(sub(sc3.nextInt(),sc4.nextInt()));
+                break;
             case 3:
                 System.out.println("Enter 2 numbers..");
                 Scanner sc5=new Scanner(System.in);
                 Scanner sc6=new Scanner(System.in);
                 System.out.println(mul(sc5.nextInt(),sc6.nextInt()));
+                break;
             case 4:
                 System.out.println("Enter 2 numbers..");
                 Scanner sc7=new Scanner(System.in);
                 Scanner sc8=new Scanner(System.in);
                 System.out.println(div(sc7.nextInt(),sc8.nextInt()));
+                break;
             case 5:
                 System.out.println("\n");
                 System.exit(0);
