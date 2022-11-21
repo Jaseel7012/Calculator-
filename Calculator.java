@@ -18,7 +18,7 @@ public class Calculator {
         return div;
     }
     public static void main(String[] args) {
-        System.out.println("Enter number 1,2,3,4.../n 1 -Addition /n 2- Substraction /n 3-Multiplication /n 4-Division /n 5-Exit");
+        System.out.println("Enter number 1,2,3,4...\n 1 -Addition \n 2- Substraction \n 3-Multiplication \n 4-Division \n 5-Exit");
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         switch (a){
@@ -42,6 +42,8 @@ public class Calculator {
                 Scanner sc7=new Scanner(System.in);
                 Scanner sc8=new Scanner(System.in);
                 System.out.println(div(sc7.nextInt(),sc8.nextInt()));
+            case 5:
+                System.exit(0);
 
 
 
